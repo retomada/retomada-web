@@ -1,0 +1,17 @@
+#Gitlab CI script for firebase and react;
+#Sonar token for gitlab_ci: 7fc29f63fc7c8bf8caba011fe8021e2c5a2f94d2
+image: node:latest
+
+stages:
+  - test
+
+framework-test:
+  stage: test
+  only:
+    - master
+    - desenvolvimento
+  services:
+    - name: docker:dind
+  script:
+    - docker build -t retomada/web .
+    - docker run --rm aquasec/trivy --exit-code 0 --severity HIGH --auto-refresh retomada/web

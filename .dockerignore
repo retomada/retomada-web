@@ -1,0 +1,7 @@
+.idea
+.scannerwork
+.vscode
+node_modules
+public
+src
+firebase.json

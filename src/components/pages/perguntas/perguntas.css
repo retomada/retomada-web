@@ -1,0 +1,22 @@
+.responsive {
+    width: 30%;
+    height: auto;
+  }
+  .card-perguntas {
+    width: 18rem;
+  }
+  h5 {
+    color: black;
+  }
+  h6 {
+    color: aqua;
+  }
+  p {
+    color: black;
+  }
+  .small-text {
+    font-size: 13pt;
+  }
+  .spacing {
+    padding: 5px;
+  }
