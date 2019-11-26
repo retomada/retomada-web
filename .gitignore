@@ -6,8 +6,8 @@ node_modules/
 .pnp.js
 .scannerwork/
 .firebase
-#.idea
-.ideaa
+.idea
+.vscodee
 # testing
 /coverage
 
